@@ -1,8 +1,3 @@
-header = document.getElementsByTagName('h1');
+var itemlist = document.querySelector("#item");
 
-
-console.log(header);
-
-for (let i = 0; i < header.length; i ++){
-    header[i].style.color = "blue";
-}
+console.log(itemlist.parentNode);

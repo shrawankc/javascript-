@@ -1,3 +1,8 @@
 var itemlist = document.querySelector("#item");
 
-console.log(itemlist.parentNode);
+const divParent = itemlist.parentNode
+
+itemlist.style.backgroundColor = '#f4f4f4';
+
+
+
